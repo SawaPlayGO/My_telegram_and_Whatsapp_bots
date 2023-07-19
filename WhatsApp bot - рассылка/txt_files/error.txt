@@ -1,0 +1,11 @@
+Ошибка:
+'NoneType' object is not iterable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/WhatsApp bot - рассылка/main.py", line 33, in message_handler
+    if format_phone_number(notification.message_text):
+  File "c:\Users\sawag\Desktop\Home Work\Kwork\WhatsApp bot - рассылка\validator.py", line 44, in format_phone_number
+    phone_number = ''.join(filter(str.isdigit, phone_number))
+TypeError: 'NoneType' object is not iterable
+
+-----------------

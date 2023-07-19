@@ -1,0 +1,46 @@
+18.07.2023 | 10:55:26
+Ошибка:
+Header values may not contain linefeed or carriage return characters
+Traceback:
+Traceback (most recent call last):
+  File "bot.py", line 314, in handle_message
+    send_email_with_file_content(sender, MAIL, subject, file_path, smtp_server, smtp_port, username, password)
+  File "C:\Users\sawag\Desktop\Home Work\Kwork\Telegram bot - рассылка\mail_send.py", line 13, in send_email_with_file_content
+    msg['Subject'] = subject
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\email\message.py", line 409, in __setitem__
+    self._headers.append(self.policy.header_store_parse(name, val))
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\email\policy.py", line 146, in header_store_parse
+    raise ValueError("Header values may not contain linefeed "
+ValueError: Header values may not contain linefeed or carriage return characters
+
+-----------------
+18.07.2023 | 13:25:54
+Ошибка:
+[Errno 2] No such file or directory: 'users/5926352552'
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - рассылка/bot.py", line 366, in handle_message
+    with open(f'users/{message.chat.id}', "r") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'users/5926352552'
+
+-----------------
+18.07.2023 | 13:26:07
+Ошибка:
+[Errno 2] No such file or directory: 'users/5926352552'
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - рассылка/bot.py", line 366, in handle_message
+    with open(f'users/{message.chat.id}', "r") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'users/5926352552'
+
+-----------------
+19.07.2023 | 09:48:02
+Ошибка:
+[WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'output.mp3'
+Traceback:
+Traceback (most recent call last):
+  File "bot.py", line 361, in handle_message
+    os.remove('output.mp3')
+PermissionError: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'output.mp3'
+
+-----------------

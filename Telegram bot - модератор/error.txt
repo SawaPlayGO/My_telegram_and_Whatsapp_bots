@@ -1,0 +1,88 @@
+14.07.2023 | 14:15:27
+Ошибка:
+A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: USER_ALREADY_PARTICIPANT
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 60, in check
+    bot.approve_chat_join_request(CHAT_GROUP_ID, int(tuple_capha_date[0])) # Принимаем заявку в группу
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\site-packages\telebot\__init__.py", line 3363, in approve_chat_join_request
+    return apihelper.approve_chat_join_request(self.token, chat_id, user_id)
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\site-packages\telebot\apihelper.py", line 1120, in approve_chat_join_request
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\sawag\AppData\Local\Programs\Python\Python38\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: USER_ALREADY_PARTICIPANT
+
+-----------------
+14.07.2023 | 14:38:30
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:31
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:34
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:40
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:41
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:44
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
+14.07.2023 | 14:38:48
+Ошибка:
+'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+  File "c:/Users/sawag/Desktop/Home Work/Kwork/Telegram bot - модератор/bot.py", line 56, in check
+    if callback.data == str(tuple_capha_date[2]) and callback.from_user.id == int(tuple_capha_date[0]):
+TypeError: 'NoneType' object is not subscriptable
+
+-----------------
